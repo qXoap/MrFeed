@@ -1,0 +1,5 @@
+#prefix
+prefix: "&l&aAutoFeed &r&7> "
+#messages
+autofeed-message: "&7AutoFeed Has Been Enabled!!"
+feed-message: "&7You have Refilled your food bar!!"
