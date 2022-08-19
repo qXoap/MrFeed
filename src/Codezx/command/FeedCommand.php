@@ -21,7 +21,8 @@ class FeedCommand extends Command {
     {
         if($player instanceof Player){
             $hunger = $player->getHungerManager();
-            $player->sendMessage($this->api->prefix."");
+            $hunger->setFood(20);
+            $player->sendMessage($this->api->prefix.$this->api->feed);
         }else{
 
         }
