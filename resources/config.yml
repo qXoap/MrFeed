@@ -1,5 +1,12 @@
 #prefix
-prefix: "&l&aAutoFeed &r&7> "
+prefix: "&l&aautofeed &r&7> "
 #messages
-autofeed-message: "&7AutoFeed Has Been Enabled!!"
+autofeed-Active-Message: "&7Auto Feed Has Been Enabled!!"
+autofeed-Avtive-Title: "&l&6AUTO FEED \n &r&7Enabled"
+#desactive
+autofeed-Desactive-Message: "&7Auto Feed Has Been Disabled!!"
+autofeed-Desactive-Title: "&l&6AUTO FEED \n &r&7Disabled!!"
+#feed
 feed-message: "&7You have Refilled your food bar!!"
+
+#PD: AutoFeed Code Hass Been Created By iKurth
