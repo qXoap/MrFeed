@@ -26,7 +26,7 @@ class AutoFeedCommand extends Command {
                 Loader::getInstance()->autofeed[] = $player->getName();
                 
                 $player->sendTitle(TextFormat::colorize(Loader::getInstance()->getConfig()->get("autofeed-Active-Title")));
-                $player->sendMessage(Loader::getInstance()->getConfig()->get("prefix").TextFormat::colorize(Loader::getInstance()->getConfig()->get("autofeed-Active-Message")));
+                $player->sendMessage(TextFormat::colorize(Loader::getInstance()->getConfig()->get("prefix").Loader::getInstance()->getConfig()->get("autofeed-Active-Message")));
     
             } else {
     
